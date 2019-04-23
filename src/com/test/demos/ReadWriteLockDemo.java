@@ -15,6 +15,8 @@ public class ReadWriteLockDemo {
 
     public static void main(String[] args) {
 
+        System.out.println("Hello Git");
+
         ReadWriteThread rwt = new ReadWriteThread();//资源类
 
         new Thread(()->{
